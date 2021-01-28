@@ -231,8 +231,6 @@ def pattern():
                     if(row==0 or row==6) or row+col==5:
                         print_Z[row][col] = "*"
             list2.append(print_Z)
-        else:
-            print("****INVALIDE INPUT****")
     return list2
 
 name = input("Enter your Name: ").upper()
